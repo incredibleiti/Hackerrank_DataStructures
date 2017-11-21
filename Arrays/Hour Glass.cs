@@ -18,7 +18,7 @@ class Solution
             C = arr.Length;
         }
 
-        int Summax = 0;
+        int Summax = -81; // (-9)x3x3, taking accoun of negative values
         int max = 0;
         for (int i = 0; i < R-2; i++)
         {
